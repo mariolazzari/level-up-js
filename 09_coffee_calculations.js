@@ -1,4 +1,3 @@
-// Write your code here
 function coffeeDate(coffeeArr) {
   const sum = coffeeArr.reduce(
     (totalCoffees, numCoffees) => (totalCoffees += numCoffees)
