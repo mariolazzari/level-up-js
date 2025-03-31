@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Truck</title>
+  </head>
+
+  <body>
+    <ul id="combined-menu"></ul>
+
+    <script>
+      // Write your code here
+      function foodTruckFestival(menus) {
+        const flatMenus = menus.flat();
+
+        const combinedMenu = new Set();
+        flatMenus.forEach(item => combinedMenu.add(item));
+
+        const menuNode = document.querySelector("#combined-menu");
+
+        for (const item of combinedMenu) {
+          const foodNode = document.createElement("li");
+          foodNode.innerText = item;
+          menuNode.appendChild(foodNode);
+        }
+      }
+
+      foodTruckFestival([
+        ["Tacos", "Burgers"],
+        ["Pizza"],
+        ["Burgers", "Fries"],
+      ]);
+    </script>
+  </body>
+</html>

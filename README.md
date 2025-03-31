@@ -19,3 +19,5 @@ By LinkedIn Learning
 ## Dynamic colors
 
 ## Coffee calculations
+
+## Food truck
