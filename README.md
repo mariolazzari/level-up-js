@@ -15,3 +15,7 @@ By LinkedIn Learning
 ## Ticking time
 
 ## Classroom attendance
+
+## Dynamic colors
+
+## Coffee calculations
